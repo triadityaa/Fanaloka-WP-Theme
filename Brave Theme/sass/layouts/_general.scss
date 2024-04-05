@@ -1,0 +1,96 @@
+/*
+Theme Name: BraveFactor
+Theme URI: http://bravefactor.com
+Author: the BraveFactor team
+Author URI: http://bravefactor.com
+Description: Our 2019 default theme is designed to show off the power of the block editor. It features custom styles for all the default blocks, and is built so that what you see in the editor looks like what you'll see on your website. Twenty Nineteen is designed to be adaptable to a wide range of websites, whether you’re running a photo blog, launching a new business, or supporting a non-profit. Featuring ample whitespace and modern sans-serif headlines paired with classic serif body text, it's built to be beautiful on all screen sizes
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: bravefactor
+*/
+
+html, body, * {
+    font-family: 'Roboto', sans-serif;
+    line-height: 22px;
+    
+    p {
+        font-size: 14px;
+    }
+}
+
+body {
+    margin: 0;
+
+    img {
+        max-width: 100%;
+    }
+}
+
+
+/*  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    COLOR Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+$color-1 : #212B36;
+$color-2 : #3E4E60;
+$color-3 : #94999f;
+
+.bg-column-0 > .elementor-column-wrap { background-color: #ffffff; }
+.bg-column-1 > .elementor-column-wrap { background-color: $color-1; }
+.bg-column-2 > .elementor-column-wrap { background-color: $color-2; }
+.bg-column-3 > .elementor-column-wrap { background-color: $color-3; }
+
+/*  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    COLOR End
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+/*  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    TEXT COLOR Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.text-white {
+    color: white !important;
+
+    * {
+        color: white !important;
+    }
+}
+
+/*  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    TEXT COLOR End
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+/*  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    PADDING Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.elementor-column {
+    &.padding-md {
+        .elementor-column-wrap {
+            padding: 30% 5% 15%;
+        }
+    }
+}
+
+
+/*  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    PADDING End
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.horizontalContent {
+    .elementor-widget-wrap {
+        @include align-items(center);
+        @include flex-wrap(nowrap);
+
+        > div {
+            width: auto;
+        }
+    }
+}

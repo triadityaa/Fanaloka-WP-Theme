@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/*
+Theme Name: Fanaloka
+Theme URI: http://fanaloka.co
+Author: The Fanaloka
+Author URI: http://fanaloka.co
+Description: Our 2019 default theme is designed to show off the power of the block editor. It features custom styles for all the default blocks, and is built so that what you see in the editor looks like what you'll see on your website. Twenty Nineteen is designed to be adaptable to a wide range of websites, whether you’re running a photo blog, launching a new business, or supporting a non-profit. Featuring ample whitespace and modern sans-serif headlines paired with classic serif body text, it's built to be beautiful on all screen sizes
+Version: 1.0
+License: GNU General Public License v3 or later
+License URI: LICENSE
+Text Domain: fanaloka
+*/
+
+.my-logo,
+footer {
+  width: 100%;
+  padding-left: 1%;
+  margin-bottom: 8px;
+  background-color: #78baff;
+  border: 1px solid #78baff;
+}
+
+body > header > h1 > a {
+    color: #ffffff;
+    font-weight: 400;
+  }
+  
+  article > header {    
+  }
+  
+  footer {
+    margin-top: 4px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* 'Margin: 0 auto' centers block content on the page */
+  .wrap {
+    width: 99%;
+    margin: 0 auto;
+  }
+
+  .content-area {
+    display: inline-block;
+  }
+  
+  .content-thin {
+      width: 70%;
+  }
+  
+  .content-full-width {
+      width: 100%;
+  }
+  
+  .content-area,
+  .primary-sidebar {
+    display: inline-block;
+  }
+  
+  .primary-sidebar {
+    width: 25%;
+    padding: 1%;
+    vertical-align: top;
+    background-color: #ececec;
+  }
+  
+  .article-loop {
+      width: 45%;
+      text-align: left;
+      margin: 5px;
+      padding: 10px;
+  }
+  
+  .article-full {
+    width: 99%;
+    padding: 1%;
+  }
+  
+  .article-loop,
+  .article-full {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #FFF;
+    border-radius: 4px;
+    margin-bottom: 4px;
+  }
+
+  @media screen and (max-width: 767px) {
+    .content-area,
+    .primary-sidebar {
+      width: 80%;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .content-area,
+    .primary-sidebar {
+      width: 100%;
+    }
+  }
