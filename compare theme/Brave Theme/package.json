@@ -1,0 +1,18 @@
+{
+    "name": "adeventure-rider",
+    "version": "1.0.0",
+    "description": "The next generation of protective coatuing",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "The Dongs",
+    "license": "ISC",
+    "devDependencies": {
+      "gulp": "^3.9.1",
+      "gulp-install": "^1.1.0",
+      "gulp-sass": "^3.2.1"
+    },
+    "dependencies": {}
+  }
+  

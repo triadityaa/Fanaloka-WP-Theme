@@ -1,0 +1,108 @@
+/*  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    TYPOGRAPHY Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.elementor-widget-heading {
+    &.elementor-widget-heading {
+        .elementor-heading-title {
+            color: inherit !important;
+        }
+    }
+}
+
+.elementor-widget-heading {
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+
+    h1 {
+        line-height: 70px !important;
+        font-size: 60px;
+    }
+
+    h2 {
+        line-height: 50px !important;
+        font-size: 45px;
+    }
+
+    h3 {
+        line-height: 45px !important;
+        font-size: 30px;
+    }
+
+    h4 {
+        line-height: 30px !important;
+        font-size: 22px;
+    }
+
+    h5 {
+        line-height: 18px !important;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+
+    h5 {
+        line-height: 18px !important;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+}
+
+/*  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    TYPOGRAPHY End
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+/*  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    BUTTON Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.elementor-button {
+    padding: 8px 30px !important;
+    border-radius: 0 !important;
+    border: 2px solid;
+
+    .elementor-button-text {
+        text-transform: uppercase;
+    }
+}
+
+.btn-outline {
+    .elementor-button {
+        background-color: transparent !important;
+        border-color: white;
+
+        &:hover {
+            background-color: white !important;
+            
+            .elementor-button-text {
+                color: $color-1;
+            }
+        }
+    }
+}
+
+.btn-filled {
+    .elementor-button {
+        background-color: $color-1 !important;
+        border-color: $color-1;
+
+        .elementor-button-text {
+            color: white;
+        }
+
+        &:hover {
+            background-color: $color-2 !important;
+            border-color: $color-2;
+        }
+    }
+}
+
+/*  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    BUTTON End
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
